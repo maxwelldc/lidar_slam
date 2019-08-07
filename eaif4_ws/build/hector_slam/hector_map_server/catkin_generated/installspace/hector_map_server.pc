@@ -1,0 +1,8 @@
+prefix=/home/wenhou/eaif4_ws/install
+
+Name: hector_map_server
+Description: Description of hector_map_server
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/wenhou/eaif4_ws/install/lib 
+Requires: 

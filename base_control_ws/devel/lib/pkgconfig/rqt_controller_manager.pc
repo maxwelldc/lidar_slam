@@ -1,0 +1,8 @@
+prefix=/home/wenhou/base_control_ws/devel
+
+Name: rqt_controller_manager
+Description: Description of rqt_controller_manager
+Version: 0.13.3
+Cflags: 
+Libs: -L/home/wenhou/base_control_ws/devel/lib 
+Requires: 

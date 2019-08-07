@@ -1,0 +1,8 @@
+prefix=/home/wenhou/eaif4_ws/install
+
+Name: navi
+Description: Description of navi
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wenhou/eaif4_ws/install/lib 
+Requires: 

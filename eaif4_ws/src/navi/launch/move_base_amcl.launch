@@ -1,0 +1,13 @@
+<launch>
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+    <rosparam file="$(find navi)/config/robot/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find navi)/config/robot/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find navi)/config/robot/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navi)/config/robot/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navi)/config/robot/base_local_planner_params.yaml" command="load" />
+
+  <!--  <rosparam file="$(find amcl)/config/nav_obstacles_params.yaml" command="load" />  -->
+  </node>
+  
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/wenhou/base_control_ws/devel
+
+Name: realtime_tools
+Description: Description of realtime_tools
+Version: 1.11.1
+Cflags: -I/home/wenhou/base_control_ws/src/realtime_tools/include
+Libs: -L/home/wenhou/base_control_ws/devel/lib -lrealtime_tools
+Requires: roscpp rospy
